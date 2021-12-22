@@ -2,7 +2,8 @@ angular
     .module('CatalogoProdutoApp', ['snk'])
     .controller('CatalogoProdutoController', ['ObjectUtils', 'AngularUtil', 'MessageUtils',
         function (ObjectUtils, AngularUtil, MessageUtils) {
-            var self = this;
+            
+    		var self = this;
             
             self.customTabsLoader = customTabsLoader;
             self.onDynaformLoaded = onDynaformLoaded;
