@@ -1,0 +1,9 @@
+<sk-application ng-controller="CatalogoProdutoController as ctrl" flex>
+    <sk-dynaform 
+    	sk-entity-name="CatalogoProduto"
+    	sk-custom-tabs-loader="ctrl.customTabsLoader(entityName)"
+    	sk-on-dynaform-loaded="ctrl.onDynaformLoaded(dynaform, dataset)"
+    	sk-other-options-loader="ctrl.otherOptionsLoader(dynaform, $dropdownMenu)"
+    	sk-form-interceptor="ctrl">
+    </sk-dynaform>
+</sk-application>
